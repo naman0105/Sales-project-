@@ -1,0 +1,86 @@
+#sidebar{
+	margin-top: 245px !important;
+}
+.nav li {
+	width:100%;
+	text-align: center;
+}
+#chart-div{
+	margin-top: 30px;
+}
+#mainnavbar{
+	-webkit-box-shadow: 10px 10px 58px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 58px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 58px 0px rgba(0,0,0,0.75);
+background-color: #990000;
+}
+body{
+	color:white;
+	background-image: url("https://image-gr.s3.envato.com/files/54015956/Background%20of%20sales3590.jpg") !important;
+}
+.jumbotron{
+	/*background-color: #f08080;*/
+	background-color: #992600;
+}
+#side{
+	background-color: #990000;
+}
+
+.page-header{
+	font-family: 'sofia' !important;
+	font-size:  50px !important;
+	text-align: center !important;
+	color:white !important;
+}
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    background-color: #990000;
+    width: 100%;
+}
+.navbar-brand {float:none;}
+
+.dropdown-toggle{
+	margin-right: 120px;
+}
+
+
+.form-signin{
+	font-family: "sofia";
+	margin-right: 30%;
+}
+
+#log{
+	width:400px;
+}
+.checkbox{
+	margin-left: 20px;
+}
+img.hello{
+	width:100px;
+}
+
+/*for animation*/
+#animation {
+    width: 50px;
+    height: 50px;
+    background-image:url("http://bestanimations.com/Earth&Space/Earth/earthglobeanimation/globe-earth-animation-31-2.gif");
+    position: relative;
+    -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+    animation: myfirst 5s linear 2s infinite alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    50%  {background-image:url("https://www.google.co.in/imgres?imgurl=http%3A%2F%2Fwww.netanimations.net%2Fani-pm-hammer.gif&imgrefurl=http%3A%2F%2Fwww.netanimations.net%2Fhammering.htm&docid=exNpUJYFpl8jGM&tbnid=M4OAHZo4XlN29M%3A&vet=10ahUKEwjayKinpO3TAhWBt48KHa8NASIQMwgxKAIwAg..i&w=160&h=108&client=firefox-b-ab&bih=659&biw=1366&q=small%20animated%20gif&ved=0ahUKEwjayKinpO3TAhWBt48KHa8NASIQMwgxKAIwAg&iact=mrc&uact=8#h=108&imgdii=jzAKoBIN5C1ysM:&vet=10ahUKEwjayKinpO3TAhWBt48KHa8NASIQMwgxKAIwAg..i&w=160"); left:200px; top:0px;}
+    100% {background-color:green; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    50%  {background-image:url("https://www.google.co.in/imgres?imgurl=http%3A%2F%2Fwww.netanimations.net%2Fani-pm-hammer.gif&imgrefurl=http%3A%2F%2Fwww.netanimations.net%2Fhammering.htm&docid=exNpUJYFpl8jGM&tbnid=M4OAHZo4XlN29M%3A&vet=10ahUKEwjayKinpO3TAhWBt48KHa8NASIQMwgxKAIwAg..i&w=160&h=108&client=firefox-b-ab&bih=659&biw=1366&q=small%20animated%20gif&ved=0ahUKEwjayKinpO3TAhWBt48KHa8NASIQMwgxKAIwAg&iact=mrc&uact=8#h=108&imgdii=jzAKoBIN5C1ysM:&vet=10ahUKEwjayKinpO3TAhWBt48KHa8NASIQMwgxKAIwAg..i&w=160"); left:200px; top:0px;}
+    100% {background-color:green; left:0px; top:0px;}
+}

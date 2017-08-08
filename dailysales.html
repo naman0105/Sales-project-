@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Today's Report</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main.css">
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="js/daily.js">
+    </script>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid" id="mainnavbar">
+    <div class="navbar-header">
+      <a class="navbar-brand page-header" href="#">Today's Report</a>
+      <ul class="nav pull-right">
+          <a type="button" href="login.html" class="btn btn-danger btn-lg">Login</a>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid" id="sidebar">
+  <div class="row">
+    <div class="col-xm-12 col-lg-2 col-md-2 col-sm-2">
+      <nav class="navbar navbar-default navbar-fixed-side " id="side">
+        <ul class="nav navbar-nav">
+      <li><a href="index.html">Home page</a></li>
+      <li class="active"><a href="#">Daily Report</a></li>
+      <li><a href="weeklysales.html">Weekly Report</a></li>
+      <li><a href="monthlysales.html">Monthly Report</a></li>
+    	</ul>
+      </nav>
+    </div>
+    <div class="col-xm-12 col-lg-10 col-md-10 col-sm-10">
+      <!-- your page content -->
+      <div class="jumbotron">
+        <h2>Today's Sales are:<p id="dailydata"></p></h2>
+      </div>
+      <br>
+      <br>
+      <div id="chart_div"></div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxvl5v_gGdLkoiew7rYCR8d4i4yr-vtsY&callback=initMap">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>index page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid" id="mainnavbar">
+    <div class="navbar-header">
+      <a class="navbar-brand page-header" href="#">Sales Report</a>
+      <!--this is for the gif file
+      <iframe src="https://giphy.com/embed/l0HlylV6IxCfru4W4" width="100" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>-->
+      <div id="animation"></div>
+    
+    <ul class="nav pull-right">
+          <a type="button" href="login.html" class="btn btn-danger btn-lg">Login</a>
+    </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid" id="sidebar">
+  <div class="row">
+    <div class="col-xm-12 col-lg-2 col-md-2 col-sm-2">
+      <nav class="navbar navbar-default" id="side">
+        <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home page</a></li>
+      <li><a href="dailysales.html">Daily Report</a></li>
+      <li><a href="weeklysales.html">Weekly Report</a></li>
+      <li><a href="monthlysales.html">Monthly Report</a></li>
+    	</ul>
+      </nav>
+    </div>
+        
+    <div class="col-xm-12 col-lg-10 col-md-10 col-sm-10">
+      <!-- your page content -->
+      <div class="jumbotron">
+        <h3>Basic info</h3>
+        Today's sales are::<p id="dailydata"></p>
+        Weekly sales are::<p id="weeklydata"></p>
+        Monthly sales are::<p id="Monthlydata"></p>
+      </div>
+    </div>
+  </div>
+</div>
+	
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxvl5v_gGdLkoiew7rYCR8d4i4yr-vtsY&callback=initMap">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
